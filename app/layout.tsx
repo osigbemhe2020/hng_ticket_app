@@ -1,5 +1,3 @@
-
-
 import './globals.css';
 import { TicketIcon } from 'lucide-react';
 

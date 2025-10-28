@@ -59,6 +59,7 @@ export default function Home() {
       password: "",
       confirm_password: "",
     });
+    window.location.href = '/Login';
 
     console.log("User registered successfully:", newUser);
   }
