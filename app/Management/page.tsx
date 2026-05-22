@@ -96,8 +96,8 @@ const TicketForm = ({ onClose, onSave, existing }: TicketFormProps) => {
             </select>
 
             <select
-              value={priority}
-              onChange={(e) => setPriority(e.target.value)}
+              value={status}
+              onChange={(e) => setStatus(e.target.value as any)}
               className="w-1/2 px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white"
             >
               <option>Open</option>
